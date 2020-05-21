@@ -66,4 +66,11 @@ public class LibraryItem {
     return totalQuantity - loanedOut;
   }
 
+  @Override
+
+  public String toString() {
+    return String.format("Title: %s Total Amount: %d Loaned Out: %d Available Now: %d ", title, totalQuantity,
+        loanedOut, getAvailableItems());
+  }
+
 }
