@@ -1,4 +1,5 @@
 # Object Oriented Programming Day 2- LAB
+
 The following instructions are to follow the lecture on Object Oriented Programming.  These should be done in a tool that allows for immediate compilation as some of the instructions will be to enter something that will break.  This is in order to see how the compiler enforces some of the language rules.   There will also be heavy use of the the `System.out.println()` method to see the results once the code compiles.
 
 Keep in mind the instruction *can* be written in a plan text editor and then compiled on the command line using `javac` but the process will be much slower.
@@ -12,8 +13,6 @@ Think about a design for a library management system.  Obviously the first type 
 > * [OOP Basics with Java](https://www3.ntu.edu.sg/home/ehchua/programming/java/J3a_OOPBasics.html)
 > * [Java Tutorial: Object Oriented Programming Concepts](https://docs.oracle.com/javase/tutorial/java/concepts/index.html)
 > * [Inheritance vs. Composition](https://www.w3resource.com/java-tutorial/inheritance-composition-relationship.php)
-
-
 
 Design a class hierarchy for the items in a library using the following guidelines:
 
@@ -29,7 +28,6 @@ Write a class for a `CardHolder` to represent someone who joined the library and
 
 #### Interfaces
 Some items may be reservable, and some may be loanable.  Create an interface for each of these and implement them in classes which fit the appropriate type.
-
 
 #### Relationships
 Create classes for `Author` and `PublishingCompany`.  Code in relationships into each of the library items.  How will you handle that an item can have multiple authors?
