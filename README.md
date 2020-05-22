@@ -27,26 +27,31 @@ Write a class for a `CardHolder` to represent someone who joined the library and
 --- END OF DAY 1, REST TO BE COMPLETED NEXT DAY ---
 
 #### Interfaces
+
 Some items may be reservable, and some may be loanable.  Create an interface for each of these and implement them in classes which fit the appropriate type.
 
 #### Relationships
+
 Create classes for `Author` and `PublishingCompany`.  Code in relationships into each of the library items.  How will you handle that an item can have multiple authors?
 
 #### Generics
+
 How have generics been used so far?  Write a custom generic collection called `OverdueList` to manage a list of overdue items.  Create separate members in the `CardHolder` for a list of books, a list of periodicals, and a list of multimedia items that are overdue.
 
 Refactor the `Loanable` interface to include a late charge.  Also, create an enumeration for how frequently late charges are added - Daily, Weekly, Bi-Weekly, Monthly, etc.  
 
-> **Pro Tip** | Learn about enums here - https://docs.oracle.com/javase/tutorial/java/javaOO/enum.html  
+> **Pro Tip** | Learn about enums here - <https://docs.oracle.com/javase/tutorial/java/javaOO/enum.html>  
 
 #### Patterns
+
 Read the following articles on design patterns:
+
 * [Design Patterns in java](https://javabeginnerstutorial.com/design-patterns-in-java/)
 * [Factory Design Pattern](https://www.tutorialspoint.com/design_pattern/factory_pattern.htm)
-* [Publish-Subscribe](https://riptutorial.com/design-patterns/example/6498/publish-subscribe-in-java) 
+* [Publish-Subscribe](https://riptutorial.com/design-patterns/example/6498/publish-subscribe-in-java)
 
 Create a factory for Library Items.  How will you determine which item to create?  A lookup?  Enum? String?
 
-> **Pro Tip** | Need another explanation of the Factory design pattern? Check out this great video from Christopher Okhravi - https://www.youtube.com/watch?v=EcFVTgRHJLM 
+> **Pro Tip** | Need another explanation of the Factory design pattern? Check out this great video from Christopher Okhravi - https://www.youtube.com/watch?v=EcFVTgRHJLM
 
 Think about how you would implement a reservation notification system.  This sub-system would let users sign up for an alert if an item they were interested in was checked out and then became available.

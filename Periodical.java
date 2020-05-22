@@ -23,4 +23,10 @@ public class Periodical extends LibraryItem {
   public void setFrequency(Frequency frequency) {
     this.frequency = frequency;
   }
+
+  @Override
+  public String toString() {
+    return String.format("Title: %s Total Amount: %d Loaned Out: %d Available Now: %d ", super.getTitle(),
+        super.getTotalQuantity(), super.getLoanedOut(), super.getAvailableItems());
+  }
 }
