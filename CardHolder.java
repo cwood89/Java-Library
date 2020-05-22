@@ -7,7 +7,7 @@ public class CardHolder {
   private ArrayList<LibraryItem> reservedItems;
   private String name;
 
-  CardHolder(String Name) {
+  CardHolder(String name) {
     this.name = name;
     this.loanedItems = new ArrayList<>();
     this.reservedItems = new ArrayList<>();
