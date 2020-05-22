@@ -54,4 +54,12 @@ public class CardHolder {
   public void addOverduePeriodical(Periodical item) {
     overduePeriodicals.addItem(item);
   }
+
+  public void printOverdueBooks() {
+    overdueBooks.printItems();
+  }
+
+  public void printOverduePeriodicals() {
+    overduePeriodicals.printItems();
+  }
 }

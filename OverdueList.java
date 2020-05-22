@@ -14,4 +14,10 @@ public class OverdueList<T extends LibraryItem> {
   public void removeItem(T item) {
     items.remove(item);
   }
+
+  public void printItems() {
+    for (T item : items) {
+      System.out.println(item);
+    }
+  }
 }

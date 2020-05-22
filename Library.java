@@ -13,5 +13,8 @@ public class Library {
     chris.printLoanedItems();
     System.out.println("Reserved Items");
     chris.printReservedItems();
+    System.out.println("Overdue Items");
+    chris.addOverdueBook(shining);
+    chris.printOverdueBooks();
   }
 }
